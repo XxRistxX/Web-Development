@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animation.css">
+</head>
+<body>
+
+<header>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#"><span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span></a>
+        </div>
+        <div>
+
+            <button id="btndown" class="btn btn-default" type="button">
+                <i class="fa fa-lg fa-chevron-down" aria-hidden="true"></i></button>
+            <div class="socialmenu">
+                    <div class="btnsocial" style="display:none">
+                        <a href="#"><i class="fa fa-3x fa-facebook-square" aria-hidden="true" style="color: white;"></i></a></div>
+                    <div class="btnsocial" style="display:none">
+                        <a href="#"><i class="fa fa-3x fa-google-plus-square" aria-hidden="true" style="color: white;"></i></div></a>
+                    <div class="btnsocial" style="display:none">
+                        <a href="#"><i class="fa fa-3x fa-git-square" aria-hidden="true" style="color: white;"></i></div></a>
+                    </a>
+            </div>
+</nav>
+
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">Langages</a>
+    <a href="#">Expériences</a>
+    <a href="#">Formations</a>
+    <a href="#">Hobby</a>
+</div>
+</header>
+
+<div class="container-fluid video">
+  <video autoplay muted loop>
+      <source src="video/typing.mp4" type="video/mp4">
+  </video>
+</div>
+<div class="container-fluid">
+    <h1 id="name">Christophe Bonin</h1>
+    <h2 id="profesion">Web Developper</h2>
+    <h3 id="slogan" class="text-center"><span style="color: orange">"</span>Désirant monter en compétences, je suis proactif<span style="color: orange">"</span></h3>
+</div>
+
+<section class="container-fluid section1">
+<div class="row">
+    <div class="col-sm-4 col-md-4">
+        <img id="computer" src="images/telescope.png">
+    </div>
+    <div class="col-sm-8 col-md-8">
+
+    </div>
+</div>
+</section>
+
+<section class="container-fluid section2">
+    <div class="row">
+        <div class="col-sm-3 col-md-3"><img class="quality" src="images/laptop.png">
+        </div>
+        <div class="col-sm-3 col-md-3"><img class="quality" src="images/team.png">
+        </div>
+        <div class="col-sm-3 col-md-3"><img class="quality" src="images/increase.png">
+        </div>
+        <div class="col-sm-3 col-md-3"><img class="quality" src="images/responsive.png">
+        </div>
+    </div>
+</section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="style.js"></script>
+</body>
+</html>
