@@ -117,54 +117,116 @@
     transform: translateX(-10%) translateY(-80%);
 }
 
-.section1 {
+.section {
     background-color: #0B6774;
-    margin-top: 130px;
-    height: 180px;
+    margin-top: 2%;
     width: 100%;
 }
 
+.search {
+    color: #f1f1f1;
+    font-family: "Altair-Thin Trial";
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.list-search-detail {
+    font-family: "Altair-Thin Trial";
+    font-style: oblique;
+    color: orange;
+    transition: 0.5s;
+}
+
+.list-search-detail:hover {
+    text-decoration: none;
+    color: deepskyblue;
+    transition: 0.5s;
+}
+
+.btn-warning {
+    font-family: Candara;
+}
+
 #computer {
-    height: 120px;
-    width: 120px;
-    margin: 25px auto;
+    height: 30%;
+    width: 30%;
+    margin: 30px auto;
     display: block;
 }
 
 .list-skill {
-    height: 450px;
     background-color: white;
-    padding-top: 50px;
+    padding-top: 2%;
     text-align: center;
+    padding-bottom: 5%;
 }
 
 .quality {
     margin: 20px auto;
     display: block;
-    height: 150px;
-    width: 150px;
+    height: 37%;
+    width: 37%;
 }
 
 .list-skill .quality-title .title>h3 {
-
     font-family: 'steelfish';
     font-weight: bold;
     font-size: 35px;
 }
 
-.list-project {
-    height: 600px;
+.first-project {
+    background-color: #111111;
 }
 
-.first-project {
-    background-color: orange;
-    height: 600px;
+.list-project .row-centered .first-project {
+    transition: 0.5s ease;
+}
+
+.list-project .row-centered .first-project:hover img {
+    background-color: #111111;
+    opacity: 0.3;
+    transition: 0.5s ease;
+}
+
+.list-project .row-centered .first-project:hover .list-project-hover {
+    -webkit-transition: 0.5s ease;
+    -moz-transition:  0.5s ease;
+    -ms-transition:  0.5s ease;
+    -o-transition:  0.5s ease;
+    transition:  0.5s ease;
+    opacity: 1;
+}
+
+.list-project {
+    width: 100%;
+}
+.list-project-hover {
+    outline: none;
+    border: none;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.list-project .row-centered .first-project>img {
+    width: 100%;
+}
+
+.first-project-btn {
+    background-color: transparent;
+    font-family: "Altair-Thin Trial";
+    transition: 0.5s ease;
 }
 
 .tab-project1 {
     background-color: aliceblue;
-    height: 300px;
+    height: 15%;
     width: 50%;
+    float: right;
 }
 
 .tab-project2 {
@@ -183,15 +245,4 @@
     background-color: coral;
     height: 300px;
     width: 50%;
-}
-
-.langage {
-    height: 500px;
-    background-color: blueviolet;
-}
-
-
-footer {
-    height: 200px;
-    background-color: #818181;
 }
