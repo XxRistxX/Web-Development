@@ -3,6 +3,19 @@
     .sidenav a {font-size: 18px;}
 }
 
+@media screen  and (min-width: 767px){
+    .navbar-default .container-fluid .btndown>button>i {margin: 10px}
+}
+
+@font-face {
+    font-family: 'Altair-Thin Trial';
+    src: url('polices/Altair-Thin Trial.ttf');
+}
+@font-face {
+    font-family: 'steelfish';
+    src: url('polices/steelfish rg.ttf');
+}
+
 @font-face {
     font-family: 'Idilica';
     src: url('polices/Idilica.ttf');
@@ -87,6 +100,7 @@
 #btndown:hover{
     color: orange;
 }
+
 .socialmenu {
     float: right;
     margin-top: 60px;
@@ -98,7 +112,6 @@
     position: fixed;
     width: 100%;
     min-width: 100%;
-    min-height: 100%;
     z-index: -15;
     height: 50%;
     transform: translateX(-10%) translateY(-80%);
@@ -106,7 +119,7 @@
 
 .section1 {
     background-color: #0B6774;
-    margin-top: 60px;
+    margin-top: 130px;
     height: 180px;
     width: 100%;
 }
@@ -118,10 +131,11 @@
     display: block;
 }
 
-.section2 {
-    height: 500px;
+.list-skill {
+    height: 450px;
     background-color: white;
-    background-color: white;
+    padding-top: 50px;
+    text-align: center;
 }
 
 .quality {
@@ -131,3 +145,53 @@
     width: 150px;
 }
 
+.list-skill .quality-title .title>h3 {
+
+    font-family: 'steelfish';
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.list-project {
+    height: 600px;
+}
+
+.first-project {
+    background-color: orange;
+    height: 600px;
+}
+
+.tab-project1 {
+    background-color: aliceblue;
+    height: 300px;
+    width: 50%;
+}
+
+.tab-project2 {
+    background-color: #0B6774;
+    height: 300px;
+    width: 50%;
+}
+
+.tab-project3 {
+    background-color: blue;
+    height: 300px;
+    width: 50%;
+}
+
+.tab-project4 {
+    background-color: coral;
+    height: 300px;
+    width: 50%;
+}
+
+.langage {
+    height: 500px;
+    background-color: blueviolet;
+}
+
+
+footer {
+    height: 200px;
+    background-color: #818181;
+}
