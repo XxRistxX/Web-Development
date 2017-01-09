@@ -108,7 +108,6 @@
 }
 
 .video {
-    display: block;
     position: fixed;
     width: 100%;
     min-width: 100%;
@@ -183,7 +182,6 @@
 }
 
 .list-project .row-centered .first-project:hover img {
-    background-color: #111111;
     opacity: 0.3;
     transition: 0.5s ease;
 }
@@ -197,12 +195,8 @@
     opacity: 1;
 }
 
-.list-project {
-    width: 100%;
-}
 .list-project-hover {
     outline: none;
-    border: none;
     transition: .5s ease;
     opacity: 0;
     position: absolute;
@@ -212,8 +206,8 @@
     -ms-transform: translate(-50%, -50%)
 }
 
-.list-project .row-centered .first-project>img {
-    width: 100%;
+.list-project .container-fluid .row-centered .first-project>img {
+    transition: 0.5s ease;
 }
 
 .first-project-btn {
@@ -223,26 +217,16 @@
 }
 
 .tab-project1 {
-    background-color: aliceblue;
-    height: 15%;
-    width: 50%;
-    float: right;
+
+    background-color: orange;
+    height: 250px;
+    width: 100%;
+
 }
 
 .tab-project2 {
     background-color: #0B6774;
-    height: 300px;
-    width: 50%;
+    height: 150px;
+    width: 100%;
 }
 
-.tab-project3 {
-    background-color: blue;
-    height: 300px;
-    width: 50%;
-}
-
-.tab-project4 {
-    background-color: coral;
-    height: 300px;
-    width: 50%;
-}
