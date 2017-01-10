@@ -216,17 +216,19 @@
     transition: 0.5s ease;
 }
 
-.tab-project1 {
-
-    background-color: orange;
-    height: 250px;
-    width: 100%;
-
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #fff;
+    color: #444;
+}
+.span2 {
+    grid-column-end: span 2;
 }
 
-.tab-project2 {
-    background-color: #0B6774;
-    height: 150px;
-    width: 100%;
+.grid .items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
+
 
